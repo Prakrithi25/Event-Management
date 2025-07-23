@@ -1,13 +1,16 @@
 # Event-Management
 Generation, Distribution &amp; Management of Customised tickets for an event. 
 The biggest challenge was carrying out the entire process using only open source tools and trial limits. 
+
+
 Step 1 :
 -	Qr code generation
 -	Put numbers 2001… and generate qr codes using limitqr (extension in gsheets) and download the files on computer.
+  
 Step 2:
 -	Put all the images of qr codes in a file and note the path. 
 -	Change the data.csv file with the last path name according to the numbers associated with the the excel sheet.
--	Use the chatgptgenerated code to generate tickets. 
+-	Use the generate.py code to generate tickets. 
 
 CODE FOR THE PURPOSE:
 from PIL import Image, ImageDraw, ImageFont
